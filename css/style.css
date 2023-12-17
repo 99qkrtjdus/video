@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* nav */
+nav#navTop{
+  width: 800px;
+  height: 30px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+ul#topmenu{
+  display: table;
+  width: 90%;
+  margin: 10px auto;
+  border: 2px solid #fff;
+}
+
+nav#navTop li{
+  display: table-cell;
+  /*background-color: #77b193;*/
+}
+
+nav#navTop li:first-child{border-left: none;}
+nav#navTop li:hover a{background-color: #fff; color: #000;}
+nav#navTop li.active a{background-color: #fff; color: #000;}
+nav#navTop li a{
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  padding: 0 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.active{background-color: #000; color: #fff;}
+
+
+/* fullpage 시작 */
+#fullpage{} 
+#page1{background-image: url(../images/bs1-2.png);}
+#page2{background-image: url(../images/bs-3.png);}
+#page3{background-image: url(../images/bs1-4.png);}
+#page4{background-image: url(../images/bs1-5.png);}
+#page5{background-image: url(../images/bs1-6.png);}
+#page6{background-image: url(../images/bs1-7.png);}
+
+.page{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+audio{margin-top: 300px; margin-left: 1350px; height: 50px;}
+
+.link{
+  display: block; width: 100%; height: 100%;
+}
+                
